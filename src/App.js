@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from "styled-components";
+import BoardItem01 from './components/BoardItem01';
+import BoardItem02 from './components/BoardItem02';
 import ContentItem01 from './components/ContentItem01';
 import CountItem01 from './components/CountItem01';
 import CountItem02 from './components/CountItem02';
@@ -66,6 +68,12 @@ const App = () => {
         </div>
         <div style={{gridRow:'3/4', gridColumn:'3/4'}}>
           <CountItem12 />
+        </div>
+        <div style={{gridRow:'6/8', gridColumn:'1/3'}}>
+          <BoardItem01 />
+        </div>
+        <div style={{gridRow:'6/8', gridColumn:'3/5'}}>
+          <BoardItem02 />
         </div>
       </BoardContainer>
     </AppContainer>
