@@ -13,7 +13,7 @@ const AppBar002 = () => {
       </div>
       <div style={{ display: 'flex', justifyContent: 'space-between' }}>
         <Avatar style={{ backgroundColor: '#3498db', fontSize: 'x-large', fontWeight: '550' }}>Y</Avatar>
-        <div style={{ color: 'black' }}>yeriel 님</div>
+        <div style={{ color: 'black', alignSelf: 'center', padding: '0 7px' }}>yeriel 님</div>
       </div>
     </div>
   );

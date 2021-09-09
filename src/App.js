@@ -51,15 +51,6 @@ const BoardContainer = styled.div`
 const App = () => {
   return (
     <AppContainer >
-      {/* <div id="title" style={{backgroundColor:'white', color:'#3f51b5',alignItems:'center', fontSize:'large', padding:'20px', display:'flex', justifyContent:'space-between'}}>
-        <div style={{display:'flex', justifyContent:'space-between'}}>
-          <DehazeIcon />
-          <div style={{paddingLeft:'20px'}}>
-            Dashboard
-          </div>
-        </div>
-        <div style={{color:'black'}}>yeriel 님</div>
-      </div> */}
       <AppBar ie="title"/>
       <div id="side-nav" style={{backgroundColor:'#2c3e50', gridRow:'1/3'}}></div>
       <div style={{gridArea:'main', overflowY:'scroll', backgroundColor:'#eeeeee'}}>
