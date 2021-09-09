@@ -3,8 +3,11 @@ import { Button, Paper, Table, TableBody, TableCell, TableContainer, TableHead, 
 
 const BoardItem01 = () => {
   return (
-    <Paper style={{ height: '100%' }}>
-      <div style={{ padding: '20px', fontWeight: '800', fontSize: 'large', color: '#5f5f5f' }}>ANNOUNCE</div>
+    <Paper>
+      <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
+        <div style={{ padding: '20px', fontWeight: '800', fontSize: 'large', color: '#5f5f5f' }}>ANNOUNCE</div>
+        <Button style={{ padding: '0 20px', color: '#5f5f5f' }}>All Announce &gt; </Button>
+      </div>
       <TableContainer>
         <Table>
           <TableHead>
@@ -43,7 +46,6 @@ const BoardItem01 = () => {
           </TableBody>
         </Table>
       </TableContainer>
-      <Button style={{ margin: '10px 40%', backgroundColor: '#3498db', color: 'white' }} variant="contained">View All Announce</Button>
     </Paper>
   );
 };

@@ -23,6 +23,7 @@ import AppBar002 from './components/AppBar002';
 import AppBar003 from './components/AppBar003';
 import AppBar004 from './components/AppBar004';
 import AppBar005 from './components/AppBar005';
+import BoardItem03 from './components/BoardItem03';
 
 const AppContainer = styled.div`
   display: grid;
@@ -87,6 +88,9 @@ const App = () => {
           </div>
           <div style={{gridRow:'6/8', gridColumn:'3/5'}}>
             <BoardItem02 />
+          </div>
+          <div style={{gridRow:'8/10', gridColumn:'1/3'}}>
+            <BoardItem03 />
           </div>
         </BoardContainer>
       </div>

@@ -12,7 +12,7 @@ const BoardItem02 = () => {
           style={{ height: '200px', textAlign: 'center' }}
         />
         <div style={{ padding: '10px 20px', color: '#5f5f5f' }}>
-          <Button variant="outlined" color="secondary">ALL announce</Button>
+          <Button color="secondary">ALL announce &gt;</Button>
         </div>
       </div>
       <TableContainer>
