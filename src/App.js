@@ -24,6 +24,13 @@ import AppBar003 from './components/AppBar003';
 import AppBar004 from './components/AppBar004';
 import AppBar005 from './components/AppBar005';
 import BoardItem03 from './components/BoardItem03';
+import ChartItem001 from './components/ChartItem001';
+import ChartItem002 from './components/ChartItem002';
+import ChartItem003 from './components/ChartItem003';
+import ChartItem004 from './components/ChartItem004';
+import ChartItem005 from './components/ChartItem005';
+import ChartItem006 from './components/ChartItem006';
+import ChartItem007 from './components/ChartItem007';
 
 const AppContainer = styled.div`
   display: grid;
@@ -91,6 +98,27 @@ const App = () => {
           </div>
           <div style={{gridRow:'8/10', gridColumn:'1/3'}}>
             <BoardItem03 />
+          </div>
+          <div style={{gridRow:'8/10', gridColumn:'3/5'}}>
+            <ChartItem001 />
+          </div>
+          <div style={{gridRow:'10/11', gridColumn:'1/3'}}>
+            <ChartItem002 />
+          </div>
+          <div style={{gridRow:'10/11', gridColumn:'3/4'}}>
+            <ChartItem003 />
+          </div>
+          <div style={{gridRow:'10/11', gridColumn:'4/5'}}>
+            <ChartItem004 />
+          </div>
+          <div style={{gridRow:'11/12', gridColumn:'1/2'}}>
+            <ChartItem005 />
+          </div>
+          <div style={{gridRow:'11/12', gridColumn:'2/3'}}>
+            <ChartItem006 />
+          </div>
+          <div style={{gridRow:'11/12', gridColumn:'3/4'}}>
+            <ChartItem007 />
           </div>
         </BoardContainer>
       </div>

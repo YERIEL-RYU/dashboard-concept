@@ -16,6 +16,7 @@ const ListItem = styled.div`
 `;
 const AnnounceContent = styled.div`
   padding: 0 10px;
+  width: 100%;
 `;
 const TitleWrap = styled.div`
   display: flex;
@@ -23,6 +24,7 @@ const TitleWrap = styled.div`
 `;
 const Title = styled.div`
   font-weight: bold;
+  padding-bottom: 5px;
 `;
 const UserDate = styled.div`
   font-size: small;
