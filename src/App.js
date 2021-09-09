@@ -31,6 +31,7 @@ import ChartItem004 from './components/ChartItem004';
 import ChartItem005 from './components/ChartItem005';
 import ChartItem006 from './components/ChartItem006';
 import ChartItem007 from './components/ChartItem007';
+import ChartItem008 from './components/ChartItem008';
 
 const AppContainer = styled.div`
   display: grid;
@@ -119,6 +120,9 @@ const App = () => {
           </div>
           <div style={{gridRow:'11/12', gridColumn:'3/4'}}>
             <ChartItem007 />
+          </div>
+          <div style={{gridRow:'11/12', gridColumn:'4/5'}}>
+            <ChartItem008 />
           </div>
         </BoardContainer>
       </div>

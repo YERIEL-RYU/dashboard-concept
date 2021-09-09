@@ -16,6 +16,7 @@ const ChartItem006 = () => {
     },
     labels: ['sarcopenia', 'fibrosis', 'stone', 'condition4', 'condition5'],
     legend: {
+      show:true,
       position: 'bottom'
     },
     plotOptions: {
